@@ -6,7 +6,7 @@
   will return object `{ name: 'Marcus Aurelius', city: 'Roma' }` */
 
 const createUser = (name, city) => {
-  return ({name, city})
+  return {name, city}
 }
 
 module.exports = { createUser };
