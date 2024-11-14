@@ -18,4 +18,5 @@ const persons = {
   hirohito: { born: 1901, died: 1989 },
 };
 console.log(ages(persons));
+
 module.exports = { ages };
