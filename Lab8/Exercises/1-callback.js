@@ -1,6 +1,6 @@
 'use strict';
 
-const iterate = (obj, callback) => {
+const iter = (obj, callback) => {
     const keys = Object.keys(obj)
     for(const key of keys) {
         const value = obj[key]
@@ -9,8 +9,8 @@ const iterate = (obj, callback) => {
 };
 
 const obj = { a: 1, b: 2, c: 3 };
-iterate(obj, (key, value) => {
+iter (obj, (key, value) => {
   console.log({ key, value });
 });
 
-module.exports = { iterate };
+module.exports = { iter };

@@ -11,7 +11,7 @@
 //   };
 
 
-const array = () => {
+const arr = () => {
     const dataArray = []
     const get = (i) => dataArray[i]
     get.push = (data) => dataArray.push(data) 
@@ -19,4 +19,4 @@ const array = () => {
     return get
 }
 
-module.exports = { array };
+module.exports = { arr };
