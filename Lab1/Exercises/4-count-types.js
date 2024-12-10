@@ -16,6 +16,6 @@ const countTypesInArray = (arr) => {
     return counters
   };
 
-console.log(countTypesInArray(["Oleg", 1, true, "false", 23, false, "Taras", false, true, 1, "We", undefined]));
+console.log(countTypesInArray(["Anton", 1, true, "false", 23, false, "Bogdan", false, true, 1, "We", undefined]));
 
 module.exports = { countTypesInArray };

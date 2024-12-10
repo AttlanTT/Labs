@@ -8,14 +8,14 @@
 - Explain script behaviour. */
 
 const fn = () => {
-    const obj1 = { name: 'Maksim' }
-    let obj2 = { name: 'Maksim' }
+    const obj1 = { name: 'Anton' }
+    let obj2 = { name: 'Anton' }
 
-    obj1.name = 'Taras'
-    obj2.name = 'Taras'
+    obj1.name = 'Bogdan'
+    obj2.name = 'Bogdan'
 
     // obj1 = { name: 'Oleg' } - we can't re-record const, we can change only fields
-    obj2 = { name: 'Artem' }
+    obj2 = { name: 'Egor' }
 };
 
 module.exports = { fn };

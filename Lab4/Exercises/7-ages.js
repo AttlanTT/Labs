@@ -12,10 +12,10 @@ const ages = (persons) => {
 };
 
 const persons = {
-  lenin: { born: 1870, died: 1924 },
-  mao: { born: 1893, died: 1976 },
-  gandhi: { born: 1869, died: 1948 },
-  hirohito: { born: 1901, died: 1989 },
+  lenin: { born: 1871, died: 1926 },
+  mao: { born: 1899, died: 1980 },
+  gandhi: { born: 1859, died: 1937 },
+  hirohito: { born: 1911, died: 1990 },
 };
 console.log(ages(persons));
 

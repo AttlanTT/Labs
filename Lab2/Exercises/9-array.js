@@ -10,10 +10,10 @@ Object example: `{ name: 'Marcus Aurelius', phone: '+380445554433' }`.
 where field `name` equals argument `name`. Use `for` loop for this search. */
 
 const phonebook = [
-    { name: 'Maksim', phone: '+380234020349' },
-    { name: 'Oleg', phone: '+3803422222123' },
-    { name: 'Taras', phone: '+380234234234' },
-    { name: 'Gena', phone: '+38023123131' },
+    { name: 'Anton', phone: '+380940913249' },
+    { name: 'Egor', phone: '+38034290922123' },
+    { name: 'Bogdan', phone: '+380134234234' },
+    { name: 'Andriy', phone: '+3809323423131' },
 ]
 
 const findPhoneByName = (name) => {

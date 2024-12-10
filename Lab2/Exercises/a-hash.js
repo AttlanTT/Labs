@@ -9,10 +9,10 @@ Use `hash[key]` to find needed phone. */
 
 const phonebook = new Map()
 
-phonebook.set('Maksim', '+380234020349')
-phonebook.set('Oleg', '+3803422222123')
-phonebook.set('Taras', '+380234234234')
-phonebook.set('Gena', '+38023123131')
+phonebook.set('Anton', '+380940913249')
+phonebook.set('Egor', '+38034290922123')
+phonebook.set('Bogdan', '+380134234234')
+phonebook.set('Andriy', '+3809323423131')
 
 
 const findPhoneByName = (name) => phonebook.get(name);

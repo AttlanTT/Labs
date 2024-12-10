@@ -1,6 +1,6 @@
 'use strict';
 
-const ipToInt = (ip = '127.0.0.1') => {
+const ipToInt = (ip = '121.0.0.1') => {
   const NumArray = ip.split('.').map(Number)
 
   // let result = 0
